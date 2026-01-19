@@ -1,0 +1,369 @@
+{
+  "novel": "基督山伯爵（架空古代复仇爽文版）",
+  "lastUpdated": "2026-01-16",
+
+  "protagonist": {
+    "name": "黄简",
+    "currentStatus": {
+      "alive": true,
+      "health": "虚弱（狱中十年）",
+      "mentalState": "悲痛、迷茫、求生欲强",
+      "location": "K监狱（未逃狱）",
+      "chapter": 0,
+      "age": 29,
+      "position": "死囚→B国人黄繁→C国贵族梁执",
+      "possessions": ["藏宝图（未使用）", "老者遗留知识"],
+      "skills": ["道法/巫术（初步）", "风水知识", "基本武艺", "谋略智慧（初步）"],
+      "knowledge": ["狱中十年经历", "老者传授的知识", "以为'得罪了大人物'"]
+    },
+    "development": {
+      "arc": "从死囚到复仇者，最终寻求救赎",
+      "milestones": [
+        {
+          "chapter": 1,
+          "description": "守灵换尸逃狱"
+        },
+        {
+          "chapter": 9,
+          "description": "与林玄影重逢"
+        },
+        {
+          "chapter": 25,
+          "description": "获得藏宝，复仇资本确立"
+        },
+        {
+          "chapter": 40,
+          "description": "陈伯庸覆灭，首次复仇成功"
+        },
+        {
+          "chapter": 60,
+          "description": "化身梁执入京"
+        },
+        {
+          "chapter": 110,
+          "description": "萧策覆灭，复仇完成"
+        }
+      ],
+      "currentPhase": "起点",
+      "nextGoal": "逃出监狱，活下来"
+    },
+    "relationships": {
+      "summary": "见relationships.json详细信息",
+      "key": {
+        "林玄影": "复杂盟友/微妙仇敌",
+        "李素节": "青梅竹马（未知其现状）",
+        "狱中老者": "师父（已故）"
+      }
+    }
+  },
+
+  "supportingCharacters": {
+    "林玄影": {
+      "role": "矛盾盟友/构陷者",
+      "importance": "high",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": 15,
+          "location": "A国X城林府"
+        },
+        "currentLocation": "A国X城",
+        "occupation": "衰败少爷/调查者"
+      },
+      "arc": {
+        "planned": "从逃避到合作，最终获得救赎",
+        "current": "逃避中，暗中调查真相"
+      },
+      "secrets": ["自己构陷了黄简", "父亲因自己而死"],
+      "motivations": ["查明当年真相", "赎罪"]
+    },
+    "陈伯庸": {
+      "role": "仇敌1/地方层",
+      "importance": "high",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "A国X城"
+        },
+        "currentLocation": "A国X城",
+        "occupation": "X地刺史"
+      },
+      "arc": {
+        "planned": "被黄简扳倒，身败名裂",
+        "current": "X地土皇帝，伪善"
+      },
+      "secrets": ["布置黄简假死现场", "阻止黄家赎人"],
+      "motivations": ["维持统治地位", "往上爬", "隐藏秘密"]
+    },
+    "陆识": {
+      "role": "仇敌2/商界层",
+      "importance": "high",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "A国（活动范围）"
+        },
+        "currentLocation": "A国",
+        "occupation": "陆家商行话事人"
+      },
+      "arc": {
+        "planned": "被黄简扳倒，发现自己也被利用",
+        "current": "陆家商行半壁江山，野心勃勃"
+      },
+      "secrets": ["分化黄林两家", "背后投靠三皇子"],
+      "motivations": ["掌握陆家全国话语权", "往上爬"]
+    },
+    "顾从戎": {
+      "role": "仇敌3/朝堂层",
+      "importance": "high",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "京城"
+        },
+        "currentLocation": "京城",
+        "occupation": "兵部侍郎"
+      },
+      "arc": {
+        "planned": "被黄简扳倒",
+        "current": "兵部侍郎，刚愎自用"
+      },
+      "secrets": ["参与反派会议", "与C国坑害将军"],
+      "motivations": ["往上爬", "巩固地位"]
+    },
+    "萧策": {
+      "role": "仇敌4/最终BOSS",
+      "importance": "high",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "京城"
+        },
+        "currentLocation": "京城",
+        "occupation": "三皇子/王位候选"
+      },
+      "arc": {
+        "planned": "被黄简扳倒，最终覆灭",
+        "current": "王位热门候选，高傲权力控"
+      },
+      "secrets": ["与C国统治者交易", "坑害大将军"],
+      "motivations": ["登上王位", "扩大势力"]
+    },
+    "李素节": {
+      "role": "情感线/青梅竹马",
+      "importance": "medium",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "京城"
+        },
+        "currentLocation": "京城",
+        "occupation": "三皇子侧妃"
+      },
+      "arc": {
+        "planned": "与黄简重逢，情感纠葛",
+        "current": "心已死，生活清冷"
+      },
+      "secrets": [],
+      "motivations": ["保护家人不被连累"]
+    },
+    "李希音": {
+      "role": "潜在复仇伙伴/李家子",
+      "importance": "medium",
+      "status": {
+        "alive": true,
+        "lastSeen": {
+          "chapter": null,
+          "location": "A国"
+        },
+        "currentLocation": "A国",
+        "occupation": "纨绔子弟"
+      },
+      "arc": {
+        "planned": "可能成为复仇伙伴",
+        "current": "纨绔外表，内心痛苦"
+      },
+      "secrets": [],
+      "motivations": ["保护姐姐", "做自己（不从政从军）"]
+    },
+    "狱中老者": {
+      "role": "师父/技能传授者",
+      "importance": "medium",
+      "status": {
+        "alive": false,
+        "lastSeen": {
+          "chapter": 1,
+          "location": "A国K监狱"
+        },
+        "currentLocation": "已故",
+        "occupation": "道法/巫术高人（已故）"
+      },
+      "arc": {
+        "planned": "已故，但其背景与C国皇室有关",
+        "current": "已故"
+      },
+      "secrets": ["与C国皇室有牵连", "藏宝图位置"],
+      "motivations": []
+    }
+  },
+
+  "characterGroups": {
+    "active": ["黄简", "林玄影", "陈伯庸", "陆识", "顾从戎", "萧策", "李素节", "李希音"],
+    "inactive": [],
+    "deceased": ["狱中老者", "黄父", "黄母", "林父"]
+  },
+
+  "appearanceTracking": [
+    {
+      "chapter": 1,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "主角逃狱"
+        },
+        {
+          "character": "狱中老者",
+          "role": "次要",
+          "significance": "传授技艺后身亡"
+        },
+        {
+          "character": "狱卒",
+          "role": "次要",
+          "significance": "被鬼神之说吓唬"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "逃脱追捕"
+        },
+        {
+          "character": "狱卒",
+          "role": "次要",
+          "significance": "追捕失败"
+        }
+      ]
+    },
+    {
+      "chapter": 3-4,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "逃亡至边界，回忆过往"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "appearances": [
+        {
+          "character": "黄简/黄繁",
+          "role": "主要",
+          "significance": "入B国，重新立身"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "appearances": [
+        {
+          "character": "黄简/黄繁",
+          "role": "主要",
+          "significance": "发现黄家败落"
+        }
+      ]
+    },
+    {
+      "chapter": 7-8,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "夜探林家"
+        },
+        {
+          "character": "林玄影",
+          "role": "主要",
+          "significance": "被发现"
+        }
+      ]
+    },
+    {
+      "chapter": 9-14,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "与林玄影对质，分析真相"
+        },
+        {
+          "character": "林玄影",
+          "role": "主要",
+          "significance": "倾诉当年，愧疚"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "appearances": [
+        {
+          "character": "黄简",
+          "role": "主要",
+          "significance": "离开林府"
+        },
+        {
+          "character": "林玄影",
+          "role": "主要",
+          "significance": "目送离开"
+        }
+      ]
+    }
+  ],
+
+  "consistency": {
+    "physicalTraits": {
+      "黄简": {
+        "age": 29岁（狱中十年前19岁）",
+        "appearance": "瘦弱、头发凌乱（逃狱后），需要整理容貌"
+      },
+      "林玄影": {
+        "age": 29岁（与黄简同龄）",
+        "appearance": "瘦了很多，眼角有皱纹，不笑时阴沉"
+      }
+    },
+    "personalityTraits": {
+      "黄简": [
+        "坚韧（狱中十年）",
+        "聪明（学会老者技艺）",
+        "愤怒（得知真相后）",
+        "有底线（复仇中不滥杀无辜）"
+      ],
+      "林玄影": [
+        "愧疚（构陷黄简）",
+        "阴郁固执（十年折磨）",
+        "有轻微自毁倾向",
+        "逃避（不敢面对李家）"
+      ]
+    },
+    "speechPatterns": {
+      "黄简": "简洁有力（狱中少说话），恢复中",
+      "林玄影": "低沉沙哑（酒精影响），絮絮叨叨（与'鬼魂'对话时）"
+    },
+    "warnings": [
+      "黄简与林玄影的关系复杂，需保持张力",
+      "林玄影的性格需要保持阴郁但真诚",
+      "各仇敌的特质需要区分（陈伯庸伪善、陆识圆滑、顾从戎刚愎、萧策高傲）"
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "novel": "基督山伯爵（架空古代复仇爽文版）",
+  "lastUpdated": "2026-01-16",
+  "currentState": {
+    "chapter": 0,
+    "volume": 1,
+    "mainPlotStage": "初始阶段",
+    "location": "K监狱（未逃狱）",
+    "timepoint": "十年后"
+  },
+
+  "plotlines": {
+    "main": {
+      "name": "主复仇线",
+      "description": "向仇敌复仇，还自己清白",
+      "status": "active",
+      "currentNode": "起点",
+      "completedNodes": [],
+      "upcomingNodes": ["逃亡与重逢", "寻宝蓄力", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策", "终局清算"],
+      "plannedClimax": {
+        "chapter": 110,
+        "description": "萧策覆灭，最终复仇完成"
+      }
+    },
+    "subplots": [
+      {
+        "id": "PL-01",
+        "name": "主复仇线",
+        "type": "主线",
+        "priority": "P0",
+        "status": "active",
+        "plannedStart": "第1章",
+        "plannedEnd": "第120章",
+        "currentNode": "起点",
+        "completedNodes": [],
+        "upcomingNodes": ["逃亡出狱", "寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
+        "intersectionsWith": ["PL-02", "PL-03", "PL-04", "PL-05"],
+        "activeChapters": ["1-15", "16-25", "26-40", "61-80", "81-95", "96-110"]
+      },
+      {
+        "id": "PL-02",
+        "name": "入狱真相线",
+        "type": "主线支撑",
+        "priority": "P0",
+        "status": "active",
+        "plannedStart": "第1章",
+        "plannedEnd": "第110章",
+        "currentNode": "迷雾",
+        "completedNodes": [],
+        "upcomingNodes": ["拼凑信息", "搜寻线索", "深入调查", "全貌浮现", "最终清算"],
+        "intersectionsWith": ["PL-01", "PL-04", "PL-06"],
+        "activeChapters": ["1-15", "11-15", "16-40", "41-45", "61-110"]
+      },
+      {
+        "id": "PL-03",
+        "name": "鬼神布局线",
+        "type": "主线支撑",
+        "priority": "P0",
+        "status": "active",
+        "plannedStart": "第1章",
+        "plannedEnd": "第120章",
+        "currentNode": "学习",
+        "completedNodes": [],
+        "upcomingNodes": ["初用吓唬狱卒", "寻宝应用", "制造灵异事件", "精进结合智谋", "终章收尾"],
+        "intersectionsWith": ["PL-01", "PL-05"],
+        "activeChapters": ["1", "16-25", "26-40", "61-95", "96-120"]
+      },
+      {
+        "id": "PL-04",
+        "name": "青梅竹马情感线",
+        "type": "支线",
+        "priority": "P1",
+        "status": "dormant",
+        "plannedStart": "第1章",
+        "plannedEnd": "第120章",
+        "currentNode": "插叙回忆",
+        "completedNodes": [],
+        "upcomingNodes": ["别离", "沉寂", "重逢?", "纠葛", "结局"],
+        "intersectionsWith": ["PL-01", "PL-02"],
+        "activeChapters": ["1", "11-13", "16-25", "46-120", "81-110", "111-120"]
+      },
+      {
+        "id": "PL-05",
+        "name": "朝堂权谋线",
+        "type": "支线",
+        "priority": "P1",
+        "status": "dormant",
+        "plannedStart": "第16章",
+        "plannedEnd": "第120章",
+        "currentNode": "启动",
+        "completedNodes": [],
+        "upcomingNodes": ["布局影响", "活跃推进", "权谋高潮"],
+        "intersectionsWith": ["PL-01", "PL-03"],
+        "activeChapters": ["16-25", "26-40", "61-95", "96-120"]
+      },
+      {
+        "id": "PL-06",
+        "name": "狱中老者背景线",
+        "type": "支线",
+        "priority": "P1",
+        "status": "dormant",
+        "plannedStart": "第1章",
+        "plannedEnd": "第110章",
+        "currentNode": "狱中核心",
+        "completedNodes": [],
+        "upcomingNodes": ["线索浮现", "揭秘收尾"],
+        "intersectionsWith": ["PL-02"],
+        "activeChapters": ["16-25", "26-40"]
+      }
+    ]
+  },
+
+  "foreshadowing": [
+    {
+      "id": "F-001",
+      "content": "黄简在狱中以为得罪了大人物，怕连累家里，不再报信",
+      "planted": {
+        "chapter": null,
+        "description": "待定：黄简尝试报信被狱卒暴揍，狱卒透露'那家人的儿子早死了'"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第15章",
+        "description": "林玄影调查L监狱没有收押过黄简；发现K监狱新头头是陈刺史亲戚"
+      },
+      "status": "planned",
+      "importance": "high",
+      "relatedPlotlines": ["PL-01", "PL-02"]
+    },
+    {
+      "id": "F-002",
+      "content": "李县令完全不知情黄简被抓",
+      "planted": {
+        "chapter": null,
+        "description": "当年黄家人找李县令求助，李县令竟不知黄简被抓"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第三卷",
+        "description": "调查发现李县令无辜"
+      },
+      "status": "planned",
+      "importance": "medium",
+      "relatedPlotlines": ["PL-02"]
+    },
+    {
+      "id": "F-003",
+      "content": "黄简在回去路上看到了埋伏大将军的特殊景象，没在意",
+      "planted": {
+        "chapter": null,
+        "description": "黄简回去路上看到很多人往某地赶，没在意"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第二卷",
+        "description": "发现这景象与当年大将军身死有关"
+      },
+      "status": "planned",
+      "importance": "high",
+      "relatedPlotlines": ["PL-02"]
+    },
+    {
+      "id": "F-004",
+      "content": "黄简的玉佩在'案发现场'被找到",
+      "planted": {
+        "chapter": "当年",
+        "description": "陈刺史布置现场，让手下将黄简玉佩扔到案发现场"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第二卷",
+        "description": "调查发现玉佩来源，指向陈刺史伪造"
+      },
+      "status": "planned",
+      "importance": "medium",
+      "relatedPlotlines": ["PL-02"]
+    },
+    {
+      "id": "F-005",
+      "content": "陆识以为黄简已死，不知道自己被陈刺史利用",
+      "planted": {
+        "chapter": "当年",
+        "description": "陆识参与反派会议，以为黄简被扔到K监狱必死"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第五卷",
+        "description": "陆识发现自己也被坑了"
+      },
+      "status": "planned",
+      "importance": "medium",
+      "relatedPlotlines": ["PL-02"]
+    },
+    {
+      "id": "F-006",
+      "content": "陆识默默出手，林玄影写的举报信间接气死林父",
+      "planted": {
+        "chapter": "当年",
+        "description": "陆识偷偷告知林父是林玄影举报，出示证据"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第三卷",
+        "description": "黄简发现陆识的证据"
+      },
+      "status": "planned",
+      "importance": "medium",
+      "relatedPlotlines": ["PL-02"]
+    },
+    {
+      "id": "F-007",
+      "content": "黄母疯癫，黄简不知情",
+      "planted": {
+        "chapter": "当年",
+        "description": "李希音找到玉佩后，黄母当场晕倒疯癫"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第二卷",
+        "description": "黄简得知真相"
+      },
+      "status": "planned",
+      "importance": "high",
+      "relatedPlotlines": ["PL-01", "PL-04"]
+    },
+    {
+      "id": "F-008",
+      "content": "三皇子与C国统治者的交易",
+      "planted": {
+        "chapter": null,
+        "description": "待定：三皇子与C国统治者的后台交易"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第七卷",
+        "description": "调查发现"
+      },
+      "status": "planned",
+      "importance": "high",
+      "relatedPlotlines": ["PL-02", "PL-05"]
+    }
+  ],
+
+  "conflicts": {
+    "active": [],
+    "resolved": [],
+    "upcoming": [
+      {
+        "chapter": 9,
+        "description": "黄简与林玄影对质"
+      },
+      {
+        "chapter": 26,
+        "description": "与陈伯庸的首次对决"
+      },
+      {
+        "chapter": 61,
+        "description": "与陆识的智力对决"
+      },
+      {
+        "chapter": 81,
+        "description": "与顾从戎的朝堂斗争"
+      },
+      {
+        "chapter": 96,
+        "description": "与萧策的最终对决"
+      }
+    ]
+  },
+
+  "checkpoints": {
+    "volumeEnd": [
+      {
+        "volume": 1,
+        "chapter": 15,
+        "description": "与林玄影重逢，开始合作调查"
+      },
+      {
+        "volume": 2,
+        "chapter": 25,
+        "description": "获得藏宝，复仇资本确立"
+      },
+      {
+        "volume": 3,
+        "chapter": 40,
+        "description": "陈伯庸覆灭"
+      },
+      {
+        "volume": 4,
+        "chapter": 45,
+        "description": "第一部收束，前往C国"
+      },
+      {
+        "volume": 5,
+        "chapter": 60,
+        "description": "化身梁执，京城身份确立"
+      },
+      {
+        "volume": 6,
+        "chapter": 80,
+        "description": "陆识败亡"
+      },
+      {
+        "volume": 7,
+        "chapter": 95,
+        "description": "顾从戎倒台"
+      },
+      {
+        "volume": 8,
+        "chapter": 110,
+        "description": "萧策覆灭"
+      },
+      {
+        "volume": 9,
+        "chapter": 120,
+        "description": "故事结束"
+      }
+    ],
+    "majorEvents": [
+      {
+        "chapter": 1,
+        "description": "守灵换尸逃狱"
+      },
+      {
+        "chapter": 9,
+        "description": "与林玄影重逢"
+      },
+      {
+        "chapter": 15,
+        "description": "黄林开始合作调查"
+      },
+      {
+        "chapter": 25,
+        "description": "获得藏宝"
+      },
+      {
+        "chapter": 40,
+        "description": "陈伯庸覆灭"
+      },
+      {
+        "chapter": 60,
+        "description": "化身梁执入京"
+      },
+      {
+        "chapter": 110,
+        "description": "萧策覆灭"
+      }
+    ]
+  },
+
+  "notes": {
+    "plotHoles": [],
+    "inconsistencies": [
+      "伏笔F-004逻辑问题：玉佩出现在案发现场，但监军声称黄简被'释放'，存在矛盾"
+    ],
+    "reminders": [
+      "伏笔表需要在大纲完成后重新整理",
+      "复仇顺序：陈伯庸 → 陆识 → 顾从戎 → 萧策",
+      "发现顺序与扳倒顺序不一致"
+    ]
+  }
+}

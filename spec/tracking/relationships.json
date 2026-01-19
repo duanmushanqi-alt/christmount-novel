@@ -1,0 +1,313 @@
+{
+  "novel": "基督山伯爵（架空古代复仇爽文版）",
+  "lastUpdated": "2026-01-16",
+
+  "characters": {
+    "黄简": {
+      "relationships": {
+        "allies": ["林玄影（矛盾）"],
+        "enemies": ["陈伯庸", "陆识", "顾从戎", "萧策（黄简未知）"],
+        "romantic": ["李素节（过去）"],
+        "family": [],
+        "mentors": ["狱中老者（已故）"],
+        "neutral": ["李希音"],
+        "unknown": []
+      },
+      "dynamicRelations": [
+        {
+          "character": "林玄影",
+          "initial": "最好朋友",
+          "current": "复杂盟友/微妙仇敌",
+          "trajectory": "先恶化后合作",
+          "keyEvents": ["林玄影构陷导致黄简入狱", "黄简出狱重逢", "黄简暴揍林玄影", "两人合作调查真相"]
+        }
+      ]
+    },
+    "林玄影": {
+      "relationships": {
+        "allies": [],
+        "enemies": [],
+        "romantic": ["李素节（过去）"],
+        "family": ["林母", "林妹"],
+        "mentors": [],
+        "neutral": ["陈伯庸（调查中）", "陆识（怀疑中）", "李希音（疏远）"],
+        "unknown": ["黄简（未知其未死）"]
+      },
+      "dynamicRelations": [
+        {
+          "character": "黄简",
+          "initial": "最好朋友",
+          "current": "复杂盟友/微妙仇敌",
+          "trajectory": "先构陷后愧疚",
+          "keyEvents": ["构陷黄简通敌", "得知黄简'死讯'", "与黄简重逢", "合作调查"]
+        }
+      ]
+    },
+    "陈伯庸": {
+      "relationships": {
+        "allies": ["顾从戎", "监军"],
+        "enemies": [],
+        "romantic": [],
+        "family": ["K监狱新头头（亲戚）"],
+        "mentors": [],
+        "neutral": ["陆识（同谋但陆识不知真相）", "萧策（效忠）"],
+        "unknown": ["黄简（以为已死）"]
+      },
+      "dynamicRelations": []
+    },
+    "陆识": {
+      "relationships": {
+        "allies": ["萧策"],
+        "enemies": [],
+        "romantic": [],
+        "family": ["陆养父"],
+        "mentors": [],
+        "neutral": ["陈伯庸（自以为同谋）", "顾从戎"],
+        "unknown": ["黄简（以为已死）"]
+      },
+      "dynamicRelations": []
+    },
+    "顾从戎": {
+      "relationships": {
+        "allies": ["萧策", "陈伯庸"],
+        "enemies": [],
+        "romantic": [],
+        "family": [],
+        "mentors": [],
+        "neutral": ["陆识"],
+        "unknown": ["黄简（以为已死）"]
+      },
+      "dynamicRelations": []
+    },
+    "萧策": {
+      "relationships": {
+        "allies": ["陈伯庸", "顾从戎", "陆识"],
+        "enemies": [],
+        "romantic": ["李素节（侧妃）"],
+        "family": [],
+        "mentors": [],
+        "neutral": [],
+        "unknown": ["黄简（根本不知道）", "林玄影", "黄家", "李家"]
+      },
+      "dynamicRelations": []
+    },
+    "李素节": {
+      "relationships": {
+        "allies": [],
+        "enemies": [],
+        "romantic": [],
+        "family": ["李怀谨", "李希音", "萧策（丈夫）"],
+        "mentors": [],
+        "neutral": [],
+        "unknown": ["黄简（以为已死）", "林玄影（未相见）"]
+      },
+      "dynamicRelations": []
+    },
+    "李希音": {
+      "relationships": {
+        "allies": [],
+        "enemies": [],
+        "romantic": [],
+        "family": ["李怀谨", "李素节"],
+        "mentors": [],
+        "neutral": ["林玄影（疏远）"],
+        "unknown": ["黄简（以为已死）"]
+      },
+      "dynamicRelations": []
+    }
+  },
+
+  "factions": {
+    "复仇方": {
+      "description": "主角阵营，目标复仇、查明真相",
+      "leader": "黄简",
+      "members": ["黄简", "林玄影"],
+      "goals": ["复仇", "查明真相"],
+      "alliedWith": [],
+      "opposedTo": ["仇敌方"],
+      "status": "active"
+    },
+    "仇敌方": {
+      "description": "当年陷害主角的仇敌，按地方层、商界层、朝堂层、最终BOSS排序",
+      "leader": "萧策（最终BOSS）",
+      "members": ["陈伯庸", "陆识", "顾从戎", "萧策"],
+      "goals": ["维护自身利益", "往上爬"],
+      "alliedWith": [],
+      "opposedTo": ["复仇方"],
+      "status": "active"
+    },
+    "李家": {
+      "description": "李县令一家，与黄林两家关系密切",
+      "leader": "李怀谨",
+      "members": ["李怀谨", "李素节", "李希音"],
+      "goals": ["保全家人的平安"],
+      "alliedWith": [],
+      "opposedTo": [],
+      "status": "active"
+    },
+    "黄林旧部": {
+      "description": "黄林两家昔日仆人",
+      "leader": null,
+      "members": ["黄家老奴"],
+      "goals": [],
+      "alliedWith": [],
+      "opposedTo": [],
+      "status": "inactive"
+    }
+  },
+
+  "relationshipMatrix": {
+    "说明": "角色间关系的快速查询矩阵",
+    "matrix": {
+      "黄简": {
+        "林玄影": "复杂盟友/微妙仇敌",
+        "李素节": "青梅竹马（黄简未知其现状）",
+        "李希音": "青梅竹马/弟弟般",
+        "陈伯庸": "未知/潜在仇敌",
+        "陆识": "未知/潜在仇敌",
+        "顾从戎": "未知/潜在仇敌",
+        "萧策": "未知/潜在仇敌"
+      },
+      "林玄影": {
+        "黄简": "复杂盟友/微妙仇敌",
+        "李素节": "逃避中/不敢相见",
+        "李希音": "疏远",
+        "陈伯庸": "调查中",
+        "陆识": "怀疑中"
+      },
+      "陈伯庸": {
+        "黄简": "未知（以为已死）",
+        "林玄影": "未察觉",
+        "顾从戎": "同谋",
+        "陆识": "同谋（陆识不知真相）",
+        "萧策": "效忠"
+      },
+      "陆识": {
+        "黄简": "未知（以为已死）",
+        "林玄影": "利用对象",
+        "陈伯庸": "同谋（陆识不知真相）",
+        "萧策": "背后投靠"
+      },
+      "顾从戎": {
+        "陈伯庸": "同谋",
+        "陆识": "合作者",
+        "萧策": "效忠/亲信"
+      },
+      "萧策": {
+        "陈伯庸": "利用",
+        "顾从戎": "亲信",
+        "陆识": "背后势力",
+        "李素节": "侧妃"
+      },
+      "李素节": {
+        "黄简": "未知（以为已死）",
+        "林玄影": "未相见",
+        "萧策": "侧妃（被迫）"
+      },
+      "李希音": {
+        "黄简": "未知（以为已死）",
+        "林玄影": "疏远/无视"
+      }
+    }
+  },
+
+  "conflicts": {
+    "personal": [
+      {
+        "participants": ["黄简", "林玄影"],
+        "description": "黄简被构陷入狱，林玄影愧疚",
+        "status": "active"
+      },
+      {
+        "participants": ["黄简", "陈伯庸"],
+        "description": "陈伯庸主导黄简入狱",
+        "status": "pending"
+      },
+      {
+        "participants": ["黄简", "陆识"],
+        "description": "陆识分化黄林两家",
+        "status": "pending"
+      },
+      {
+        "participants": ["黄简", "顾从戎"],
+        "description": "顾从戎参与反派会议",
+        "status": "pending"
+      },
+      {
+        "participants": ["黄简", "萧策"],
+        "description": "萧策强迫李素节为侧妃",
+        "status": "pending"
+      }
+    ],
+    "factional": [
+      {
+        "factions": ["复仇方", "仇敌方"],
+        "description": "主角复仇阵营与四仇敌阵营的对抗",
+        "status": "active"
+      }
+    ],
+    "ideological": [
+      {
+        "description": "复仇与正义的边界",
+        "status": "latent"
+      },
+      {
+        "description": "权力与道德的冲突",
+        "status": "latent"
+      }
+    ]
+  },
+
+  "history": [
+    {
+      "chapter": 1,
+      "changes": [
+        {
+          "type": "new",
+          "characters": ["黄简", "林玄影"],
+          "relation": "未知→复杂（林玄影视角）",
+          "impact": "medium"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "changes": [
+        {
+          "type": "change",
+          "characters": ["黄简", "林玄影"],
+          "relation": "复杂盟友/微妙仇敌",
+          "impact": "high"
+        }
+      ]
+    }
+  ],
+
+  "predictions": {
+    "说明": "基于当前关系预测的发展",
+    "likely": [
+      {
+        "characters": ["黄简", "林玄影"],
+        "description": "两人会在复仇中合作，但关系会一直微妙"
+      },
+      {
+        "characters": ["黄简", "李素节"],
+        "description": "以新身份梁执与李素节重逢，产生情感纠葛"
+      },
+      {
+        "characters": ["林玄影", "李希音"],
+        "description": "林玄影会与李希音重新建立联系"
+      }
+    ],
+    "possible": [
+      {
+        "characters": ["黄简", "李希音"],
+        "description": "李希音可能成为黄简的复仇伙伴"
+      },
+      {
+        "characters": ["陆识", "陈伯庸"],
+        "description": "陆识可能发现自己被陈伯庸利用"
+      }
+    ]
+  }
+}

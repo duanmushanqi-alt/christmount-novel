@@ -1,0 +1,165 @@
+{
+  "novel": "基督山伯爵（架空古代复仇爽文版）",
+  "lastUpdated": "2026-01-16",
+
+  "storyTime": {
+    "start": "十年后，K监狱",
+    "current": "未开始",
+    "end": "预计约8个月后",
+    "format": "故事内时间：从黄简逃狱开始，约持续8-10个月"
+  },
+
+  "events": [
+    {
+      "chapter": 1,
+      "date": "逃狱当天",
+      "event": "狱中老者身亡，黄简守灵换尸逃狱",
+      "duration": "1天",
+      "participants": ["黄简", "狱卒", "狱中老者"]
+    },
+    {
+      "chapter": 2,
+      "date": "逃狱次日",
+      "event": "黄简在乱葬岗逃脱",
+      "duration": "1天",
+      "participants": ["黄简", "狱卒"]
+    },
+    {
+      "chapter": 3-4,
+      "date": "逃狱后3-5天",
+      "event": "黄简逃亡至A、B国边界",
+      "duration": "4天",
+      "participants": ["黄简"]
+    },
+    {
+      "chapter": 5,
+      "date": "逃狱后5-7天",
+      "event": "黄简入B国，以黄繁身份重新立身",
+      "duration": "2天",
+      "participants": ["黄简/黄繁"]
+    },
+    {
+      "chapter": 6,
+      "date": "逃狱后7-10天",
+      "event": "黄简重返A国，发现黄家败落",
+      "duration": "3天",
+      "participants": ["黄简/黄繁"]
+    },
+    {
+      "chapter": 7-8,
+      "date": "重返A国后1-2天",
+      "event": "黄简夜探林家，发现林玄影",
+      "duration": "2天",
+      "participants": ["黄简", "林玄影"]
+    },
+    {
+      "chapter": 9-14,
+      "date": "夜探当晚",
+      "event": "黄林重逢，对质，分析当年真相",
+      "duration": "1夜",
+      "participants": ["黄简", "林玄影"]
+    },
+    {
+      "chapter": 15,
+      "date": "重逢次日黎明",
+      "event": "黄林分别，黄简以黄繁身份在X城活动",
+      "duration": "半天",
+      "participants": ["黄简", "林玄影"]
+    }
+  ],
+
+  "parallelEvents": {
+    "说明": "同时发生的事件，按时间点分组",
+    "timepoints": {
+      "逃狱当天": [
+        {
+          "location": "K监狱",
+          "event": "黄简换尸逃狱",
+          "participants": ["黄简"]
+        },
+        {
+          "location": "X城",
+          "event": "新上司上任",
+          "participants": ["K监狱新头头"]
+        }
+      ],
+      "逃狱次日": [
+        {
+          "location": "乱葬岗",
+          "event": "黄简逃脱",
+          "participants": ["黄简"]
+        },
+        {
+          "location": "K监狱",
+          "event": "狱卒发现黄简逃脱",
+          "participants": ["狱卒", "新上司"]
+        },
+        {
+          "location": "X城",
+          "event": "城门、街上出现官差查看乞丐",
+          "participants": ["官差"]
+        }
+      ]
+    }
+  },
+
+  "historicalContext": {
+    "说明": "历史背景事件（当年事件）",
+    "events": [
+      {
+        "time": "十年前-事件前",
+        "event": "黄林二人从小一起长大，四人情谊深厚；陆家养子布局让黄林两家反目"
+      },
+      {
+        "time": "十年前-出发前",
+        "event": "李素节19岁，黄林二人准备表白"
+      },
+      {
+        "time": "十年前-林回来路上",
+        "event": "林玄影被撺掇举报黄简通敌"
+      },
+      {
+        "time": "十年前-黄回来路上",
+        "event": "黄简看到埋伏大将军的景象；手下抄近路告诉陈刺史"
+      },
+      {
+        "time": "十年前-黄回来后",
+        "event": "黄简被抓；监军伪造黄简死亡；陈刺史布置假现场"
+      },
+      {
+        "time": "十年前-三年后",
+        "event": "三皇子到X城；三皇子看上李素节；陈刺史献言，李素节成为侧妃"
+      },
+      {
+        "time": "十年前-五年后",
+        "event": "黄父撒手人寰，遣散老奴后自杀"
+      }
+    ]
+  },
+
+  "timeLogic": {
+    "travelTimes": {
+      "说明": "地点间的旅行时间",
+      "routes": {
+        "K监狱-X城": "约2-3天（步行）",
+        "X城-边界": "约3-5天（步行）",
+        "边界-B国D城": "约1天"
+      }
+    },
+    "constraints": [
+      {
+        "description": "黄简逃狱后不敢直接回家",
+        "rule": "城门严格看守，且发型不好伪装，需绕道或换身份"
+      },
+      {
+        "description": "黄简与林玄影重逢当晚",
+        "rule": "事件发生在林府深夜，黎明时分分别"
+      }
+    ]
+  },
+
+  "anomalies": {
+    "说明": "时间逻辑问题记录",
+    "issues": []
+  }
+}
