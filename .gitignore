@@ -12,3 +12,4 @@
 
 # 节点模块
 node_modules/
+.claude/settings.local.json
