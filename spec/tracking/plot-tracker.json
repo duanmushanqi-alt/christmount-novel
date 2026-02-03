@@ -1,12 +1,12 @@
 {
   "novel": "基督山伯爵（架空古代复仇爽文版）",
-  "lastUpdated": "2026-01-16",
+  "lastUpdated": "2026-02-03",
   "currentState": {
-    "chapter": 0,
+    "chapter": 6,
     "volume": 1,
-    "mainPlotStage": "初始阶段",
-    "location": "K监狱（未逃狱）",
-    "timepoint": "十年后"
+    "mainPlotStage": "逃狱重生期 - 得知家破人亡",
+    "location": "北魏X城，林宅附近巷子",
+    "timepoint": "逃狱后第10-11天"
   },
 
   "plotlines": {
@@ -31,9 +31,9 @@
         "status": "active",
         "plannedStart": "第1章",
         "plannedEnd": "第120章",
-        "currentNode": "起点",
-        "completedNodes": [],
-        "upcomingNodes": ["逃亡出狱", "寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
+        "currentNode": "逃亡出狱 - 得知家破人亡",
+        "completedNodes": ["守灵换尸逃狱（第1章）", "乱葬岗逃脱（第2章）", "山林逃亡（第3章）", "到达陈汉国（第4章）", "获得新身份（第5章）", "返回X城发现家破人亡（第6章）"],
+        "upcomingNodes": ["夜探林宅（第7章）", "与林玄影重逢（第8章）", "寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
         "intersectionsWith": ["PL-02", "PL-03", "PL-04", "PL-05"],
         "activeChapters": ["1-15", "16-25", "26-40", "61-80", "81-95", "96-110"]
       },
@@ -45,9 +45,9 @@
         "status": "active",
         "plannedStart": "第1章",
         "plannedEnd": "第110章",
-        "currentNode": "迷雾",
-        "completedNodes": [],
-        "upcomingNodes": ["拼凑信息", "搜寻线索", "深入调查", "全貌浮现", "最终清算"],
+        "currentNode": "拼凑信息 - 初步线索",
+        "completedNodes": ["得知'得罪了大人物'（第4章）", "得知外界传自己'被大虫咬死'（第6章）", "得知陆家崛起（第6章）"],
+        "upcomingNodes": ["与林玄影重逢拼凑真相（第7-12章）", "搜寻线索", "深入调查", "全貌浮现", "最终清算"],
         "intersectionsWith": ["PL-01", "PL-04", "PL-06"],
         "activeChapters": ["1-15", "11-15", "16-40", "41-45", "61-110"]
       },
@@ -238,6 +238,40 @@
       "status": "planned",
       "importance": "high",
       "relatedPlotlines": ["PL-02", "PL-05"]
+    },
+    {
+      "id": "F-009",
+      "content": "陆家崛起，成为X城首富（黄家旧宅变陆宅）",
+      "planted": {
+        "chapter": 6,
+        "description": "老街坊说：'当年黄家、林家，都是X城有名的商行。现在...都比不过陆家了。' + 黄家旧宅门匾变成'陆宅'"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第十-十二卷",
+        "description": "揭露陆识是导火索，利用黄家衰败崛起"
+      },
+      "status": "planted",
+      "importance": "high",
+      "relatedPlotlines": ["PL-01", "PL-02"],
+      "note": "【重要】陆家本就是北魏全国大家族，比黄林两家更强。黄简此时认为陆家崛起是正常现象，不产生怀疑。这是背景铺垫，不是明显伏笔。"
+    },
+    {
+      "id": "F-010",
+      "content": "外界传言黄简'被大虫咬死'（实际被关牢里）",
+      "planted": {
+        "chapter": 6,
+        "description": "老人B说：'听说儿子被大虫咬死了，父母受不了打击，后来一家子都没了。'"
+      },
+      "hints": [],
+      "plannedReveal": {
+        "chapter": "第10-11章",
+        "description": "林玄影讲述当年：顾从戎伪造黄简死亡现场（玉佩+大虫咬痕尸体）"
+      },
+      "status": "planted",
+      "importance": "high",
+      "relatedPlotlines": ["PL-02"],
+      "note": "黄简在第6章产生疑惑：我明明是被构陷入狱，为什么外界说被大虫咬死？这个谜团将在第10-11章揭晓。"
     }
   ],
 

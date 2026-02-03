@@ -1,30 +1,50 @@
 {
   "novel": "基督山伯爵（架空古代复仇爽文版）",
-  "lastUpdated": "2026-01-16",
+  "lastUpdated": "2026-02-03",
 
   "protagonist": {
     "name": "黄简",
     "currentStatus": {
       "alive": true,
-      "health": "虚弱（狱中十年）",
-      "mentalState": "悲痛、迷茫、求生欲强",
-      "location": "K监狱（未逃狱）",
-      "chapter": 0,
+      "health": "虚弱但恢复中（狱中十年）",
+      "mentalState": "惶恐、迷惑、压抑痛苦、谨慎",
+      "location": "北魏X城，林宅附近巷子",
+      "chapter": 6,
       "age": 29,
-      "position": "死囚→B国人黄繁→C国贵族梁执",
-      "possessions": ["藏宝图（未使用）", "老者遗留知识"],
-      "skills": ["道法/巫术（初步）", "风水知识", "基本武艺", "谋略智慧（初步）"],
-      "knowledge": ["狱中十年经历", "老者传授的知识", "以为'得罪了大人物'"]
+      "position": "陈汉国人黄繁（合法身份）",
+      "possessions": ["陈汉国身份文书", "两份路引（北魏、西蜀）", "盘缠干粮", "藏宝图线索（未使用）"],
+      "skills": ["道法/巫术（初步）", "风水知识", "基本武艺", "谋略智慧（初步）", "看相推理"],
+      "knowledge": [
+        "狱中十年经历",
+        "老者传授的知识",
+        "以为'得罪了大人物'",
+        "【新增】黄家旧宅变陆宅",
+        "【新增】黄家'一家子都没了'（不知具体）",
+        "【新增】外界传言自己'被大虫咬死'（疑惑）",
+        "【新增】林家衰败，林玄影两年前回来",
+        "【新增】陆家成为X城最富商行（背景信息，无怀疑）"
+      ]
     },
     "development": {
       "arc": "从死囚到复仇者，最终寻求救赎",
       "milestones": [
         {
           "chapter": 1,
-          "description": "守灵换尸逃狱"
+          "description": "守灵换尸逃狱",
+          "status": "✅已完成"
         },
         {
-          "chapter": 9,
+          "chapter": 5,
+          "description": "获得新身份（陈汉国人黄繁）",
+          "status": "✅已完成"
+        },
+        {
+          "chapter": 6,
+          "description": "返回X城，发现家破人亡",
+          "status": "✅已完成"
+        },
+        {
+          "chapter": 7-8,
           "description": "与林玄影重逢"
         },
         {
@@ -44,8 +64,8 @@
           "description": "萧策覆灭，复仇完成"
         }
       ],
-      "currentPhase": "起点",
-      "nextGoal": "逃出监狱，活下来"
+      "currentPhase": "逃狱重生期",
+      "nextGoal": "弄清楚黄家和林家发生了什么，与林玄影接触"
     },
     "relationships": {
       "summary": "见relationships.json详细信息",
@@ -280,7 +300,22 @@
         {
           "character": "黄简/黄繁",
           "role": "主要",
-          "significance": "发现黄家败落"
+          "significance": "返回X城，发现黄家旧宅变陆宅，得知家破人亡"
+        },
+        {
+          "character": "边境守卫",
+          "role": "龙套",
+          "significance": "检查身份（黄繁身份有效）"
+        },
+        {
+          "character": "陆宅小厮",
+          "role": "龙套",
+          "significance": "不知道黄家，赶走黄简"
+        },
+        {
+          "character": "老街坊（老人A/B/C/D）",
+          "role": "次要",
+          "significance": "提供关键信息：家破人亡、被大虫咬死、林家衰败、陆家崛起"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "novel": "基督山伯爵（架空古代复仇爽文版）",
-  "lastUpdated": "2026-01-16",
+  "lastUpdated": "2026-02-03",
 
   "characters": {
     "黄简": {
@@ -31,7 +31,7 @@
         "family": ["林母", "林妹"],
         "mentors": [],
         "neutral": ["陈伯庸（调查中）", "陆识（怀疑中）", "李希音（疏远）"],
-        "unknown": ["黄简（未知其未死）"]
+        "unknown": ["黄简（还不知道他活着且已返回X城）"]
       },
       "dynamicRelations": [
         {
