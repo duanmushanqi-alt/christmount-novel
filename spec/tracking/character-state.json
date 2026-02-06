@@ -7,9 +7,9 @@
     "currentStatus": {
       "alive": true,
       "health": "虚弱但恢复中（狱中十年）",
-      "mentalState": "惶恐、迷惑、压抑痛苦、谨慎",
-      "location": "北魏X城，林宅附近巷子",
-      "chapter": 6,
+      "mentalState": "震惊、困惑、心理冲突剧烈（发现林玄影愧疚自责）",
+      "location": "北魏兴城，林宅书房门外",
+      "chapter": 7,
       "age": 29,
       "position": "陈汉国人黄繁（合法身份）",
       "possessions": ["陈汉国身份文书", "两份路引（北魏、西蜀）", "盘缠干粮", "藏宝图线索（未使用）"],
@@ -22,7 +22,15 @@
         "【新增】黄家'一家子都没了'（不知具体）",
         "【新增】外界传言自己'被大虫咬死'（疑惑）",
         "【新增】林家衰败，林玄影两年前回来",
-        "【新增】陆家成为X城最富商行（背景信息，无怀疑）"
+        "【新增】陆家成为兴城最富商行（背景信息，无怀疑）",
+        "【第7章新增】林家门庭冷落，只剩几个老仆",
+        "【第7章新增】林玄影精神状态极差，频繁饮酒",
+        "【第7章新增】林玄影反复画四人图但从未画完",
+        "【第7章新增】林玄影看到自己的幻觉，精神不稳定",
+        "【第7章新增】林玄影自责'都是我的错''害了你''害了所有人'",
+        "【第7章新增】林玄影有自杀倾向（'一了百了'）",
+        "【第7章新增】林玄影认为黄简已死，在和'鬼魂'对话",
+        "【第7章新增】林玄影的愧疚是真实的，不是伪装"
       ]
     },
     "development": {
@@ -40,7 +48,7 @@
         },
         {
           "chapter": 6,
-          "description": "返回X城，发现家破人亡",
+          "description": "返回兴城，发现家破人亡",
           "status": "✅已完成"
         },
         {
@@ -84,11 +92,12 @@
       "status": {
         "alive": true,
         "lastSeen": {
-          "chapter": 15,
-          "location": "A国X城林府"
+          "chapter": 7,
+          "location": "北魏兴城林宅书房"
         },
-        "currentLocation": "A国X城",
-        "occupation": "衰败少爷/调查者"
+        "currentLocation": "北魏兴城林宅",
+        "occupation": "衰败少爷/调查者",
+        "mentalState": "绝望、阴郁、疯癫边缘，有自杀倾向，频繁看到黄简幻觉"
       },
       "arc": {
         "planned": "从逃避到合作，最终获得救赎",
@@ -104,9 +113,9 @@
         "alive": true,
         "lastSeen": {
           "chapter": null,
-          "location": "A国X城"
+          "location": "A国兴城"
         },
-        "currentLocation": "A国X城",
+        "currentLocation": "A国兴城",
         "occupation": "X地刺史"
       },
       "arc": {
@@ -300,7 +309,7 @@
         {
           "character": "黄简/黄繁",
           "role": "主要",
-          "significance": "返回X城，发现黄家旧宅变陆宅，得知家破人亡"
+          "significance": "返回兴城，发现黄家旧宅变陆宅，得知家破人亡"
         },
         {
           "character": "边境守卫",
@@ -355,7 +364,7 @@
         {
           "character": "黄简",
           "role": "主要",
-          "significance": "离开林府"
+          "significance": "离开林宅"
         },
         {
           "character": "林玄影",
