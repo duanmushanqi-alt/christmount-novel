@@ -1,12 +1,12 @@
 {
   "novel": "基督山伯爵（架空古代复仇爽文版）",
-  "lastUpdated": "2026-02-03",
+  "lastUpdated": "2026-02-24",
   "currentState": {
-    "chapter": 6,
+    "chapter": 15,
     "volume": 1,
-    "mainPlotStage": "逃狱重生期 - 得知家破人亡",
-    "location": "北魏X城，林宅附近巷子",
-    "timepoint": "逃狱后第10-11天"
+    "mainPlotStage": "重逢合作期 - 离开兴城，前往藏宝地",
+    "location": "北魏兴城，林宅（黄简即将出发）",
+    "timepoint": "逃狱后第13天"
   },
 
   "plotlines": {
@@ -14,7 +14,7 @@
       "name": "主复仇线",
       "description": "向仇敌复仇，还自己清白",
       "status": "active",
-      "currentNode": "起点",
+      "currentNode": "蓄力阶段",
       "completedNodes": [],
       "upcomingNodes": ["逃亡与重逢", "寻宝蓄力", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策", "终局清算"],
       "plannedClimax": {
@@ -31,9 +31,25 @@
         "status": "active",
         "plannedStart": "第1章",
         "plannedEnd": "第120章",
-        "currentNode": "逃亡出狱 - 得知家破人亡",
-        "completedNodes": ["守灵换尸逃狱（第1章）", "乱葬岗逃脱（第2章）", "山林逃亡（第3章）", "到达陈汉国（第4章）", "获得新身份（第5章）", "返回X城发现家破人亡（第6章）", "夜探林宅，发现林玄影愧疚自责（第7章）"],
-        "upcomingNodes": ["夜探林宅（第7章）", "与林玄影重逢（第8章）", "寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
+        "currentNode": "离开兴城，前往藏宝地",
+        "completedNodes": [
+          "守灵换尸逃狱（第1章）",
+          "乱葬岗逃脱（第2章）",
+          "山林逃亡（第3章）",
+          "到达陈汉国（第4章）",
+          "获得新身份（第5章）",
+          "返回兴城发现家破人亡（第6章）",
+          "夜探林宅，发现林玄影愧疚自责（第7章）",
+          "林玄影以为是鬼魂，黄简强制重逢（第8章）",
+          "黄简暴揍林玄影，发泄十年怒火（第9章）",
+          "林玄影倾诉父母结局（第10章）",
+          "拼凑当年真相：假死现场与玉佩（第11章）",
+          "得知李素节成为三皇子侧妃（第12章）",
+          "祭拜父母，第一次落泪（第13章）",
+          "街头游荡验证信息，观察刺史府（第14章）",
+          "林玄影汇报两年调查，确立合作计划，黄简离开兴城（第15章）"
+        ],
+        "upcomingNodes": ["寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
         "intersectionsWith": ["PL-02", "PL-03", "PL-04", "PL-05"],
         "activeChapters": ["1-15", "16-25", "26-40", "61-80", "81-95", "96-110"]
       },
@@ -45,9 +61,19 @@
         "status": "active",
         "plannedStart": "第1章",
         "plannedEnd": "第110章",
-        "currentNode": "拼凑信息 - 初步线索",
-        "completedNodes": ["得知'得罪了大人物'（第4章）", "得知外界传自己'被大虫咬死'（第6章）", "得知陆家崛起（第6章）"],
-        "upcomingNodes": ["与林玄影重逢拼凑真相（第7-12章）", "搜寻线索", "深入调查", "全貌浮现", "最终清算"],
+        "currentNode": "基本脉络清晰 - 深入调查阶段",
+        "completedNodes": [
+          "得知'得罪了大人物'（第4章）",
+          "得知外界传自己'被大虫咬死'（第6章）",
+          "得知陆家崛起（第6章）",
+          "林玄影亲口承认写举报信（第8章）",
+          "林玄影叙述黄父自杀、黄母疯癫经过（第10章）",
+          "拼凑假死现场：玉佩被植入、相似尸体、大虫咬痕伪造（第11章）",
+          "确认陈伯庸为首谋，顾从戎参与军方，陆识为黄林关系分化者（第11章）",
+          "得知李素节被迫成为三皇子萧策侧妃（第12章）",
+          "林玄影汇报两年调查：K监狱换新头头（陈刺史亲戚），各仇敌现状（第15章）"
+        ],
+        "upcomingNodes": ["搜寻更多线索", "深入调查陈伯庸", "全貌浮现", "最终清算"],
         "intersectionsWith": ["PL-01", "PL-04", "PL-06"],
         "activeChapters": ["1-15", "11-15", "16-40", "41-45", "61-110"]
       },
@@ -56,10 +82,10 @@
         "name": "鬼神布局线",
         "type": "主线支撑",
         "priority": "P0",
-        "status": "active",
+        "status": "dormant",
         "plannedStart": "第1章",
         "plannedEnd": "第120章",
-        "currentNode": "学习",
+        "currentNode": "学习阶段",
         "completedNodes": [],
         "upcomingNodes": ["初用吓唬狱卒", "寻宝应用", "制造灵异事件", "精进结合智谋", "终章收尾"],
         "intersectionsWith": ["PL-01", "PL-05"],
@@ -70,11 +96,14 @@
         "name": "青梅竹马情感线",
         "type": "支线",
         "priority": "P1",
-        "status": "dormant",
+        "status": "active",
         "plannedStart": "第1章",
         "plannedEnd": "第120章",
-        "currentNode": "插叙回忆",
-        "completedNodes": [],
+        "currentNode": "压制悲痛，以复仇为重",
+        "completedNodes": [
+          "李素节成为三皇子侧妃（第12章，林玄影告知，黄简震惊）",
+          "黄简将青梅旧情压入心底，以复仇为首要任务（第12章）"
+        ],
         "upcomingNodes": ["别离", "沉寂", "重逢?", "纠葛", "结局"],
         "intersectionsWith": ["PL-01", "PL-02"],
         "activeChapters": ["1", "11-13", "16-25", "46-120", "81-110", "111-120"]
@@ -123,9 +152,10 @@
         "chapter": "第15章",
         "description": "林玄影调查L监狱没有收押过黄简；发现K监狱新头头是陈刺史亲戚"
       },
-      "status": "planned",
+      "status": "revealed",
       "importance": "high",
-      "relatedPlotlines": ["PL-01", "PL-02"]
+      "relatedPlotlines": ["PL-01", "PL-02"],
+      "note": "【第15章已揭晓】林玄影两年调查发现K监狱头头是陈刺史亲戚，解释了为何黄简家人无法赎人"
     },
     {
       "id": "F-002",
@@ -166,14 +196,17 @@
         "chapter": "当年",
         "description": "陈刺史布置现场，让手下将黄简玉佩扔到案发现场"
       },
-      "hints": [],
+      "hints": [
+        "第11章：拼凑假死现场时，得知玉佩是被陈刺史一方植入现场的"
+      ],
       "plannedReveal": {
         "chapter": "第二卷",
         "description": "调查发现玉佩来源，指向陈刺史伪造"
       },
-      "status": "planned",
+      "status": "partially_revealed",
       "importance": "medium",
-      "relatedPlotlines": ["PL-02"]
+      "relatedPlotlines": ["PL-02"],
+      "note": "【第11章部分揭露】已知玉佩被植入，完整证据链留待第二卷"
     },
     {
       "id": "F-005",
@@ -187,7 +220,7 @@
         "chapter": "第五卷",
         "description": "陆识发现自己也被坑了"
       },
-      "status": "planned",
+      "status": "planted",
       "importance": "medium",
       "relatedPlotlines": ["PL-02"]
     },
@@ -198,12 +231,14 @@
         "chapter": "当年",
         "description": "陆识偷偷告知林父是林玄影举报，出示证据"
       },
-      "hints": [],
+      "hints": [
+        "第10章：林玄影叙述父亲如何得知举报信之事而悲愤"
+      ],
       "plannedReveal": {
         "chapter": "第三卷",
         "description": "黄简发现陆识的证据"
       },
-      "status": "planned",
+      "status": "hinted",
       "importance": "medium",
       "relatedPlotlines": ["PL-02"]
     },
@@ -219,9 +254,10 @@
         "chapter": "第二卷",
         "description": "黄简得知真相"
       },
-      "status": "planned",
+      "status": "revealed",
       "importance": "high",
-      "relatedPlotlines": ["PL-01", "PL-04"]
+      "relatedPlotlines": ["PL-01", "PL-04"],
+      "note": "【第10章已揭晓】林玄影告知：黄母看到儿子'死亡'玉佩后精神崩溃"
     },
     {
       "id": "F-008",
@@ -268,10 +304,10 @@
         "chapter": "第10-11章",
         "description": "林玄影讲述当年：顾从戎伪造黄简死亡现场（玉佩+大虫咬痕尸体）"
       },
-      "status": "planted",
+      "status": "revealed",
       "importance": "high",
       "relatedPlotlines": ["PL-02"],
-      "note": "黄简在第6章产生疑惑：我明明是被构陷入狱，为什么外界说被大虫咬死？这个谜团将在第10-11章揭晓。"
+      "note": "【第11章已揭晓】监军一方找来相似尸体，造大虫咬痕；陈刺史将黄简玉佩植入现场"
     },
     {
       "id": "F-017",
@@ -285,10 +321,10 @@
         "chapter": "第12章",
         "description": "林玄影告诉黄简：这幅画他画了无数次，每次画到最后都无法下笔，因为愧疚让他无法完成美好的回忆"
       },
-      "status": "planted",
+      "status": "revealed",
       "importance": "medium",
       "relatedPlotlines": ["PL-04"],
-      "note": "这是林玄影心理状态的视觉化呈现，体现其对过去的执念和对黄简的愧疚。未完成的画象征着被他亲手毁掉的友情。"
+      "note": "【第12章已揭晓】林玄影吐露：画了无数次却每次停手，愧疚已刻入骨髓，未完成的画象征被他亲手毁掉的友情"
     },
     {
       "id": "F-018",
@@ -302,21 +338,22 @@
         "chapter": "第8-9章",
         "description": "黄简推门进入，林玄影依然认为是幻觉，直到黄简动手打他才意识到是真人"
       },
-      "status": "planted",
+      "status": "revealed",
       "importance": "high",
       "relatedPlotlines": ["PL-01", "PL-04"],
-      "note": "这个伏笔强化了林玄影的精神崩溃状态，也为第8章的'鬼魂认知'做铺垫。林玄影的幻觉频率说明他的愧疚已经到了病态的程度。"
+      "note": "【第8-9章已揭晓】林玄影见到黄简仍以为是幻觉，直到被打才确信是真人，强化了其精神崩溃程度"
     }
   ],
 
   "conflicts": {
     "active": [],
-    "resolved": [],
-    "upcoming": [
+    "resolved": [
       {
         "chapter": 9,
-        "description": "黄简与林玄影对质"
-      },
+        "description": "黄简与林玄影的首次对质：黄简以拳脚发泄十年怒火，林玄影没有还手；之后转入倾诉和合作阶段"
+      }
+    ],
+    "upcoming": [
       {
         "chapter": 26,
         "description": "与陈伯庸的首次对决"
@@ -341,7 +378,7 @@
       {
         "volume": 1,
         "chapter": 15,
-        "description": "与林玄影重逢，开始合作调查"
+        "description": "与林玄影重逢并确立合作，黄简离开兴城前往藏宝地"
       },
       {
         "volume": 2,
@@ -390,12 +427,16 @@
         "description": "守灵换尸逃狱"
       },
       {
+        "chapter": 8,
+        "description": "与林玄影重逢（鬼魂认知）"
+      },
+      {
         "chapter": 9,
-        "description": "与林玄影重逢"
+        "description": "暴力对质，怒火发泄"
       },
       {
         "chapter": 15,
-        "description": "黄林开始合作调查"
+        "description": "确立合作，黄林开始布局"
       },
       {
         "chapter": 25,
@@ -418,13 +459,12 @@
 
   "notes": {
     "plotHoles": [],
-    "inconsistencies": [
-      "伏笔F-004逻辑问题：玉佩出现在案发现场，但监军声称黄简被'释放'，存在矛盾"
-    ],
+    "inconsistencies": [],
     "reminders": [
       "伏笔表需要在大纲完成后重新整理",
       "复仇顺序：陈伯庸 → 陆识 → 顾从戎 → 萧策",
-      "发现顺序与扳倒顺序不一致"
+      "发现顺序与扳倒顺序不一致",
+      "第一卷共15章，时间跨度约13天（逃狱当天至第13天）"
     ]
   }
 }
