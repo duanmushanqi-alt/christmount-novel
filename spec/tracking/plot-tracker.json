@@ -1,12 +1,13 @@
 {
   "novel": "基督山伯爵（架空古代复仇爽文版）",
-  "lastUpdated": "2026-03-05",
+  "lastUpdated": "2026-04-20",
   "currentState": {
-    "chapter": 17,
+    "chapter": 30,
     "volume": 2,
-    "mainPlotStage": "寻宝旅途 - 身份渐入角色，偶遇故人",
-    "location": "北魏南部集镇以北（偶遇老狱卒后离镇，继续往北）",
-    "timepoint": "逃狱后第18天"
+    "mainPlotStage": "第二卷完成，第三卷共识文档完成待细纲",
+    "location": "兴城（黄繁铺子+林宅+周家）",
+    "timepoint": "逃狱后约一到两年",
+    "volume3Status": "共识文档已完成（spec/volume3-consensus.md），章节范围31-47（17章），下一步细纲规划"
   },
 
   "plotlines": {
@@ -53,7 +54,7 @@
         ],
         "upcomingNodes": ["寻宝积蓄", "斗陈伯庸", "斗陆识", "斗顾从戎", "斗萧策"],
         "intersectionsWith": ["PL-02", "PL-03", "PL-04", "PL-05"],
-        "activeChapters": ["1-15", "16-25", "26-40", "61-80", "81-95", "96-110"]
+        "activeChapters": ["1-15", "16-30", "31-47", "48-?", "后续待定"]
       },
       {
         "id": "PL-02",
