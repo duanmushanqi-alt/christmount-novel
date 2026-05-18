@@ -1,5 +1,12 @@
 # AI 去味规则 v4.0（激进版）
 
+> ⚠️ **本作（基督山伯爵·古代复仇）不使用本规则。**
+> 原因：本规则禁用所有成语/比喻/四字词组、句长硬限 15 字、段长硬限 4 句，会让古代背景的文字砍成平庸短句，且与本作 writing-pitfalls.md 的 P-42（节奏长短交错）/ P-46（保留比喻）/ P-49（禁伪具体而非禁形容词）等多条原则正面冲突。
+> 本作反AI规范见：[anti-ai-scan.md](../../../../.claude/projects/-Users-beiying-Documents-novel------/memory/anti-ai-scan.md) + [writing-pitfalls.md](../../../../.claude/projects/-Users-beiying-Documents-novel------/memory/writing-pitfalls.md) P-40~P-53。
+> 本文件保留是为了未来写现代/口语题材时可能复用。**不要在本项目的 spec/specification.md 的 writing-requirements 中引用本规则。**
+
+---
+
 ## 设计理念
 
 **最激进的 AI 去味方案** - 优先真实感，牺牲部分文学性。
@@ -421,8 +428,8 @@
 
 **最后提醒**：
 
-> 这个版本极端克制，适合对AI味零容忍的作者。
-> 如果觉得太硬，可以降级使用 anti-ai-v3.md
+> 这个版本极端克制，适合对AI味零容忍的现代/口语题材。
+> 本作（基督山伯爵·古代复仇）不使用本规则，见文件顶部警告。
 
 ---
 
