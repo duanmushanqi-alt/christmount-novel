@@ -13,3 +13,7 @@
 # 节点模块
 node_modules/
 .claude/settings.local.json
+
+# AgentKit 工具配置
+.agentkit.yaml
+.agentkit/
